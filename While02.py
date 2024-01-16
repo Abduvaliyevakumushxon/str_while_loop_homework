@@ -9,7 +9,7 @@ def main(s):
     a=0
     b=0
     while a<len(s):
-        if s[a].islower():
+        if s[a].isalpha():
             b+=1
         a+=1
     return b
