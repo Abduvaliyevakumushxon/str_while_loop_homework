@@ -9,7 +9,7 @@ def main(s):
     d=0
     count=0
     while d<len(s):
-        if s[d].isdigit() and int(s[d])%2==0:
+        if s[d].isdigit() and int(s[d])%2==1:
             count+=int(s[d])
         d+=1
     return count
